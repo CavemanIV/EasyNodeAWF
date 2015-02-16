@@ -9,6 +9,8 @@ Note, this project is NOT finished thus currently not usable yet.
 
 * First since we are using JS hence a NodeJS has to be installed
 
+* You can drop the plugin into Alfred then modify it, or create a fresh workflow by following:
+
 1. Goto *Alfred Setting* --> *Workflow*, click + button and add an blank workflow
 
 2. Add an *Inputs* --> *Script Filter* (Basically a script filter shows result inside alfred little tableview rather than open other app, you can find more description [here](http://support.alfredapp.com/workflows:config:inputs-script-filter)), feel free to name keyword. You may notice **script** textarea, we will fill it in step 5.
@@ -23,7 +25,7 @@ Note, this project is NOT finished thus currently not usable yet.
 export WORKFLOW_DEFINITION_FILE="[YOUR SEARCH LOGIC JS FILE PATH]"
 export CMD_SEPERATOR="[STRING AS SEPERATOR TO CUT DOWN SUBCOMMAND]"
 
-/usr/local/bin/node /Users/caveman/workspace/NodeJS/EasyNodeAWF/index.js "{query}"
+/usr/local/bin/node index.js "{query}"
 ```
 
 6. Try it
