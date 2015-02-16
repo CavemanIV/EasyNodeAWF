@@ -1,0 +1,14 @@
+{
+  "name": "EasyNodeAWF",
+  "version": "0.0.1",
+  "description": "An easy approach to create Alfred Workflow using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Caveman",
+  "license": "MIT",
+  "dependencies": {
+    "xmlbuilder": "^2.5.2"
+  }
+}
